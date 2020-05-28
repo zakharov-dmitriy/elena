@@ -331,7 +331,15 @@ body {
    margin: 0 15px;
 }
 
+@media (min-height: 660px) {
+   .header {
+      height: 100%;
+   }
+}
 @media (max-width: 660px) {
+   .header {
+      height: 100%;
+   }
    .foryou__inner {
       margin: 30px 0;
    }
@@ -348,6 +356,15 @@ body {
 }
 
 @media (max-width: 570px) {
+   .header__logo {
+      padding-top: 50px;
+   }
+   .header__title {
+      margin-bottom: 20px;
+   }
+   .header__subtitle {
+      margin-bottom: 35px;
+   }
    .modules__inner {
       margin: 40px 0;
       flex-direction: column;
