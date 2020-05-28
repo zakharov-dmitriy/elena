@@ -247,21 +247,11 @@ body {
    margin-bottom: 25px;
    padding-left: 40px;
 }
-.notes__title::before {
-   content: "";
-   position: absolute;
-   left: 0;
-   width: 24px;
-   height: 24px;
-   background: url(../images/notes-icon1.png) no-repeat;
+.notes__title--icon-1 {
+   background: url(../images/notes-icon1.png) no-repeat left top;
 }
-.notes__title:last-child::before {
-   content: "";
-   position: absolute;
-   left: 0;
-   width: 24px;
-   height: 24px;
-   background: url(../images/notes-icon2.png) no-repeat;
+.notes__title--icon-2 {
+   background: url(../images/notes-icon2.png) no-repeat left top;
 }
 .notes__text {
    margin-bottom: 35px;
